@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3.payara-p3 (2.4.3.payara-maintenance-a5c1c68; 2019-06-17T14:04:38+0200) JAXWS-RI/2.3.2.payara-p2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://provider.henriqueandrewsilva.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://provider.henriqueandrewsilva.com/">
+
+<xs:element name="somar" type="tns:somar"/>
+
+<xs:element name="somarResponse" type="tns:somarResponse"/>
+
+<xs:complexType name="somar">
+<xs:sequence>
+<xs:element name="valor1" type="xs:int"/>
+<xs:element name="valor2" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="somarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

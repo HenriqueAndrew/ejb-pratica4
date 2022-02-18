@@ -1,0 +1,9 @@
+com\henriqueandrewsilva\JAXRSConfiguration.class
+com\henriqueandrewsilva\cli\package-info.class
+com\henriqueandrewsilva\resources\JavaEE8Resource.class
+com\henriqueandrewsilva\web\JSFrequest.class
+com\henriqueandrewsilva\cli\Somar.class
+com\henriqueandrewsilva\cli\WsServicoSoma.class
+com\henriqueandrewsilva\cli\WsServicoSoma_Service.class
+com\henriqueandrewsilva\cli\ObjectFactory.class
+com\henriqueandrewsilva\cli\SomarResponse.class
